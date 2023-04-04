@@ -259,6 +259,10 @@ button {
     font-weight: bold;
 }
 
+.services_box .read_more{
+    position: absolute;
+    bottom: 0;
+}
 .read_more:hover {
     background: #fdc001;
     color: #fff;
@@ -703,7 +707,7 @@ button {
 .services_box p {
     line-height: 30px;
     padding-top: 23px;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
 }
 
 #ho_shad:hover.services_box figure img {
@@ -1022,7 +1026,7 @@ button {
 /** footer **/
 
 .footer {
-    margin-top: 90px;
+    /* margin-top: 90px; */
     padding-top: 90px;
     background: #2d2d2d;
     text-align: center;
@@ -1224,4 +1228,9 @@ ul.social_icon li a i:hover {
 
 .portfolio_page .footer {
     margin-top: 60px;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
 }
